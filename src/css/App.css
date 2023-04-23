@@ -120,6 +120,49 @@ a {
   object-fit: cover;
 }
 
+.mainpart-inner #portfolio {
+  padding: 20px;
+}
+#portfolio .portfolio-title h1{
+  font-size: xx-large;
+}
+
+
+#portfolio .portfolio-inner {
+  margin-top: 60px;
+}
+#portfolio .portfolio-inner .project-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+#portfolio .portfolio-inner .project-wrap .card {
+  width: 30%;
+  margin: 15px;
+}
+.project-wrap .card .card-img {
+  width: 100%;
+}
+.project-wrap .card .card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.project-wrap .card .card-txt {
+
+}
+.project-wrap .card .card-txt h2 {
+  font-weight: 700;
+  margin-bottom: .4em;
+}
+.project-wrap .card .card-txt h4 {
+  font-weight: 500;
+  margin-bottom: .2em;
+}
+.project-wrap .card .card-txt p {
+  font-weight: 300;
+  color: #999;
+}
 
 @media (max-width: 1600px) {
   .sideBar {

@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 const Bar = (() => {
   return (
   <>
@@ -18,10 +19,16 @@ const Bar = (() => {
         <div className="menu">
           <ul>
             <li className="item">
-              <a href="#home">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li className="item">
-              <a href="#portfolio">Portfolio</a>
+              <Link to="/">Portfolio</Link>
+            </li>
+            <li className="item">
+              <Link to='/game'>Game</Link>
+            </li>
+            <li className="item">
+              <Link to='/snake'>Snake</Link>
             </li>
           </ul>
         </div>

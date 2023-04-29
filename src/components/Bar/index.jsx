@@ -21,15 +21,15 @@ const Bar = (() => {
             <li className="item">
               <Link to="/">Home</Link>
             </li>
-            <li className="item">
+            {/* <li className="item">
               <Link to="/">Portfolio</Link>
-            </li>
+            </li> */}
             <li className="item">
               <Link to='/game'>Game</Link>
             </li>
-            <li className="item">
+            {/* <li className="item">
               <Link to='/snake'>Snake</Link>
-            </li>
+            </li> */}
           </ul>
         </div>
         <div className="copyright">

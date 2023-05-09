@@ -15,11 +15,13 @@ const Bar = (() => {
     </div>
     <div className="sideBar">
       <div className="sideBar-inner">
-        <div className="logo">Vanessa's</div>
+        <div className="logo">
+          <a href="/">Vanessa's</a>
+          </div>
         <div className="menu">
           <ul>
             <li className="item">
-              <Link to="/">Home</Link>
+              <Link replace to="/">Home</Link>
             </li>
             {/* <li className="item">
               <Link to="/">Portfolio</Link>

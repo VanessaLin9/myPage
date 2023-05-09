@@ -1,3 +1,7 @@
+:root {
+  --dark-grey-blue: #267b98;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -41,7 +45,7 @@ a {
 .trigger::before{
   width: 30px;
   height: 3px;
-  background-color: #267b98;
+  background-color: var(--dark-grey-blue);
 }
 .trigger::after,
 .trigger::before{
@@ -91,7 +95,7 @@ a {
   margin: 10px 0;
 }
 .item a {
-  color: #267b98;
+  color: var(--dark-grey-blue);
 }
 
 .sideBar-inner .copyright {
@@ -178,7 +182,7 @@ a {
   font-weight: bold;
 }
 .game-inner .title h1{
-  color: #267b98;
+  color: var(--dark-grey-blue);
 }
 .game-inner .wrap{
   width: 100%;
@@ -214,7 +218,7 @@ a {
 .game-box .txt .btn-group {
   align-self: flex-end;
   line-height: 1.5em;
-  margin-top: auto;
+  margin-top: 2rem;
 }
 .game-box .txt .btn-group a{
   border: 1px solid #ccc;

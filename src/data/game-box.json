@@ -1,5 +1,21 @@
 [
   {
+    "id": "alpha-shop-react",
+    "pic": "https://media.discordapp.net/attachments/1008571091616276541/1105905146539552829/33louie_futuristic_world_off_white_planet_cf65cd71-4e0d-49ad-adff-2627765eff90.png",
+    "title": "電商購物車",
+    "description": "Alpha shop 購物車",
+    "website": "https://vanessalin9.github.io/alpha-shop-react/",
+    "repo": "https://github.com/VanessaLin9/alpha-shop-react"
+  },
+  {
+    "id": "temperature-P06",
+    "pic": "https://media.discordapp.net/attachments/945077390839787570/1105888565348544592/tonyschmidt_hyper_realistic_a0564693-a8ce-4d0a-a0c9-6ae02ca2fea7.png",
+    "title": "及時天氣與華氏攝氏溫度轉換器",
+    "description": "溫度小工具",
+    "website": "https://vanessalin9.github.io/temperature-P06/",
+    "repo": "https://github.com/VanessaLin9/temperature-P06"
+  },
+  {
     "id": "lottery-P02",
     "pic": "https://media.discordapp.net/attachments/945077390839787570/1103696848004321410/mandyyyy_v_efc7f0d8-a99e-4e11-93bc-2b535d440b15.png",
     "title": "今天你的千機閣可以500抽了嗎?",

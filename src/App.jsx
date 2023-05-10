@@ -3,13 +3,13 @@ import Bar from './components/Bar';
 import Homepage from './components/HomePage';
 import Game from './components/Game';
 import Snake from './components/Snake';
-import {HashRouter, Routes, Route, Navigate} from 'react-router-dom';
+import {BrowserRouter as Router, Routes, Route, Navigate} from 'react-router-dom';
 import './css/App.css';
 
 
 function App() {
   return (
-    <HashRouter>
+  <Router>
     <div className="App">
       <Bar/>
       <div className="mainpart">
@@ -21,7 +21,7 @@ function App() {
       </Routes>
       </div>
     </div>
-  </HashRouter>
+  </Router>
   )
 }
 

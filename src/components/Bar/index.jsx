@@ -16,7 +16,7 @@ const Bar = (() => {
     <div className="sideBar">
       <div className="sideBar-inner">
         <div className="logo">
-          <a href="/">Vanessa's</a>
+          <a href="https://vanessalin9.github.io/">Vanessa's</a>
           </div>
         <div className="menu">
           <ul>

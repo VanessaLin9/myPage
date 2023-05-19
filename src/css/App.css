@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   list-style: none;
+  box-sizing: border-box;
 }
 body {
   font-family: sans-serif;
@@ -21,7 +22,6 @@ a {
   height: 50px;
   background-color: #fff;
   padding: 10px;
-  box-sizing: border-box;
   display: none;
 }
 .topBar .topBar-inner {
@@ -123,7 +123,27 @@ a {
   height: 100%;
   object-fit: cover;
 }
+#home{
+  position: relative;
+}
+#home .pointer {
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  font-size: x-large;
+}
+#home .pointer a:hover .fas{
+  color: aquamarine;
+  animation: ss .2s linear infinite alternate;
+}
 
+@keyframes ss {
+  0%{ transform: rotate(-10deg)}
+  100%{ transform: rotate(10deg);}
+}
+
+/* portfolio */
 .mainpart-inner #portfolio {
   padding: 20px;
 }
@@ -191,6 +211,7 @@ a {
 }
 .game-box {
   width: 360px;
+  height: 230px;
   display: flex;
   border: 1px solid #888;
   margin: 15px;

@@ -7,6 +7,7 @@
   padding: 0;
   list-style: none;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 body {
   font-family: sans-serif;
@@ -133,14 +134,16 @@ a {
   text-align: center;
   font-size: x-large;
 }
+#home .pointer .fas{
+  animation: ss .8s ease-in infinite alternate;
+}
 #home .pointer a:hover .fas{
   color: aquamarine;
-  animation: ss .2s linear infinite alternate;
 }
 
 @keyframes ss {
-  0%{ transform: rotate(-10deg)}
-  100%{ transform: rotate(10deg);}
+  0%{ transform: translateY(-10px)}
+  100%{ transform: translateY(0px);}
 }
 
 /* portfolio */
